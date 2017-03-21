@@ -2,6 +2,7 @@ package ro.pub.cs.systems.eim.lab04.contactsmanager;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class ContactsManagerActivity extends AppCompatActivity {
 
@@ -9,6 +10,7 @@ public class ContactsManagerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts_manager);
-        findViewById()
+        Button save = findViewById(R.id.save);
+        Button cancel = findViewById(R.id.cancel);
     }
 }
