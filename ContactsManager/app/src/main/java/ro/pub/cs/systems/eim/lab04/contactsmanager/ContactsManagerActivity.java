@@ -10,7 +10,7 @@ public class ContactsManagerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts_manager);
-        Button save = findViewById(R.id.save);
-        Button cancel = findViewById(R.id.cancel);
+        Button save = (Button) findViewById(R.id.save);
+        Button cancel = (Button) findViewById(R.id.cancel);
     }
 }
